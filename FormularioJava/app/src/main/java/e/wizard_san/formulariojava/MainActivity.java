@@ -31,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
                String senhaa = "123456";
 
                if(txt.equals(henrique)&& pass.equals(senhaa)) {
-                   Toast.makeText(MainActivity.this, "login aceito", Toast.LENGTH_LONG).show();
+                   Toast.makeText(MainActivity.this, "Login aceito", Toast.LENGTH_LONG).show();
                }
                else {
-                   Toast.makeText(MainActivity.this,"usuário ou senha incorretos",Toast.LENGTH_LONG).show();
+                   Toast.makeText(MainActivity.this,"Usuário ou senha incorretos",Toast.LENGTH_LONG).show();
                }
            }
         });
