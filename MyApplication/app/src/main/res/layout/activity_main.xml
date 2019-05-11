@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:background="@color/bginicial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Usuário"
+                android:ems="10"
+                android:textColorHint="@color/white"
+                android:layout_margin="@android:dimen/app_icon_size"
+                android:textAlignment="center"
+                android:id="@+id/nome"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Senha"
+                android:textColorHint="@color/white"
+                android:textAlignment="center"
+                android:layout_margin="@android:dimen/app_icon_size"
+                android:ems="10"
+                android:id="@+id/senha"/>
+        <Button
+                android:text="Login"
+                android:layout_width="match_parent"
+                android:layout_margin="@android:dimen/app_icon_size"
+                android:background="@color/aa"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content" android:id="@+id/login"/>
+        <TextView
+                android:text="OU"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content" android:id="@+id/textView"/>
+        <Button
+                android:text="Cadastre-se"
+                android:layout_width="match_parent"
+                android:textColor="@color/bginicial"
+                android:layout_margin="@android:dimen/app_icon_size"
+                android:background="@color/white"
+                android:layout_height="wrap_content" android:id="@+id/cadastrar"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
