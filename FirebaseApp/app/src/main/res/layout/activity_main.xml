@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/amarelo"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:background="@color/bginicial"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="48dp"
+                android:layout_marginLeft="48dp"
+                android:inputType="textEmailAddress"
+                android:hint="E-mail"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:ems="10"
+                android:id="@+id/edEmail"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="48dp"
+                android:layout_marginLeft="48dp"
+                android:inputType="textPassword"
+                android:hint="Senha"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:ems="10"
+                android:id="@+id/edPass"/>
+
+        <Button
+                android:id="@+id/btnSingUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/verde"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="36dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"
+                android:text="Cadastrar"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                 />
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_gravity="center"
+                      android:layout_height="wrap_content">
+            <Button
+                    android:text="Login"
+                    android:layout_width="144dp"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:background="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/bginicial"
+                    android:id="@+id/btnLogin"/>
+
+            <Button
+                    android:id="@+id/btnLoggof"
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:textColor="@color/bginicial"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:background="@color/white"
+                    android:text="sair"/>
+
+        </LinearLayout>
+
+        <Button
+                android:id="@+id/btnVerifyEmailUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/amarelo"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"
+                android:text="Verificar Email" />
+        <TextView
+                android:text="Usuário Logado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:id="@+id/lbUsuarioLogado"/>
+        <TextView
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:id="@+id/lbEmailDoUsuarioLogado"/>
+
+        <TextView
+                android:id="@+id/lbEmailValidoSera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:text=""
+                tools:text="" />
+
+        <Button
+                android:text="Alterar senha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="96dp"
+                android:layout_marginRight="96dp"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@color/verde"
+                android:layout_marginTop="12dp"
+                android:id="@+id/btnAlteraSenha"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="normal"
+                android:textColorHint="@color/white"
+                android:hint="Nova Senha"
+                android:layout_marginTop="24dp"
+                android:textAlignment="center"
+                android:layout_marginRight="48dp"
+                android:layout_marginLeft="48dp"
+                android:ems="10"
+                android:id="@+id/txtNovaSenha"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
