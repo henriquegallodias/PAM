@@ -1,0 +1,4 @@
+#Thu Jun 06 05:56:26 BRT 2019
+base.0=C\:\\Users\\Aluno\\ProjectOneCordova\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=C\:\\Users\\Aluno\\ProjectOneCordova\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
